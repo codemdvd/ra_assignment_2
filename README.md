@@ -11,10 +11,7 @@ The goal is to study the performance of allocation strategies in both the **basi
 - \( k = 1 \): Single query per decision.
 - \( k = 2 \): Two queries per decision for more informed choices.
 
-The performance is measured as \( G_n \), the gap between the maximum load and the average load of bins:
-\[
-G_n = \max_{1 \leq i \leq m} X_i(n) - \frac{n}{m}
-\]
+The performance is measured as \( G_n \), the gap between the maximum load and the average load of bins
 
 ## Constants and Parameters
 
